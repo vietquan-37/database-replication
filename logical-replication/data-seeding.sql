@@ -4,4 +4,4 @@ INSERT INTO authors (name) VALUES ('Lisa');
 
 INSERT INTO movies (name, author_id) VALUES ('Movie 1', (SELECT id FROM authors WHERE name = 'John'));
 INSERT INTO movies (name, author_id) VALUES ('Movie 2', (SELECT id FROM authors WHERE name = 'John'));
-INSERT INTO movies (name, author_id) VALUES ('Movie 3', (SELECT id FROM authors WHERE name = 'Maria'));""
+INSERT INTO movies (name, author_id) VALUES ('Movie 3', (SELECT id FROM authors WHERE name = 'Maria'));
